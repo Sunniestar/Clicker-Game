@@ -211,3 +211,16 @@ a8: {value:SAVE, id:'saveNUM'}
 })//));
 download(SAVE+'.txt',save);
 }
+function abc(){
+document.addEventListener("visibilitychange", (event) => {
+  if (document.visibilityState == "visible") {
+    newTime=(new Date.getTime())
+    console.log("tab is active")
+    c=c.add(cs.multiply(Math.floor((newTime-oldTime)/1000)))
+  } else {
+  oldTime=(new Date().getTime())
+  console.log("tab is inactive")
+  }
+});
+}
+setTimeout('abc()',1000)
