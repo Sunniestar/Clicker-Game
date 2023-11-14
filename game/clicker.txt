@@ -217,6 +217,7 @@ document.addEventListener("visibilitychange", (event) => {
     newTime=(new Date().getTime())
     console.log("tab is active")
     c=c.add(cs.multiply(Math.floor((newTime-oldTime)/1000)))
+alert('added '+cs.multiply(Math.floor((newTime-oldTime)/1000))+' away for'+Math.floor((newTime-oldTime)/1000))
   } else {
   oldTime=(new Date().getTime())
   console.log("tab is inactive")
