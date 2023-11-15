@@ -8,7 +8,7 @@ if (c.exponent>=6&&c.exponent<=8){
 document.body.children[0].innerText=_c+" clicks"
 }else{document.body.children[0].innerText=c+" clicks"}}/*
 document.body.children[0].innerText=c+" clicks"
-  }*/
+  }
   if (event.code==='Digit1'){
 document.body.children[1].innerText="buy 1 more click per click for "+cost
 if (c.greaterThanOrEqualTo(cost)){
@@ -33,7 +33,7 @@ const d = Decimal,a=d.affordArithmeticSeries,s = d.sumArithmeticSeries,e=eval,c1
 function maxbuy(){
 max1=d.affordGeometricSeries(c,10,1.5,ca)
 max2=d.affordGeometricSeries(c,20,2.5,cs)
-/*Decimal.affordArithmeticSeries(c,20,5,cs)*/
+/*Decimal.affordArithmeticSeries(c,20,5,cs)
 }
 const cDate = (d1, d2) => {
   let date1 = new Date(d1).getTime();
@@ -66,7 +66,7 @@ cs=new Decimal(0)
 /*amount1=a(c,10,10,ca-1)
 cost = s(amount1,10,10,ca-1)
 amount2=a(c,20,20,cs)
-cost2 = s(amount2,20,20,cs)*/
+cost2 = s(amount2,20,20,cs)
 document.body.children[1].innerText="press 1 to buy 1 more click per click for "+cost
 document.body.children[0].innerText=c+" clicks"
 document.body.children[1].onclick=function buy(){
@@ -205,7 +205,7 @@ a8: {value:SAVE, id:'saveNUM'}
 }
 function debug(){
 SAVE+=1
-save = /*btoa(btoa(*/JSON.stringify({
+save = /*btoa(btoa(JSON.stringify({
 a1:{value:c, id:'money'},
 a2: {value:ca, id:'cpc'},
 a3: {value:cost, id:'price'},
