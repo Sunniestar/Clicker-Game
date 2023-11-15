@@ -6,7 +6,7 @@ c=c.add(ca);
 if (c.exponent>=6&&c.exponent<=8){
     _c=c.mantissa.toFixed(2)+"Mil"
 document.body.children[0].innerText=_c+" clicks"
-}else{document.body.children[0].innerText=c+" clicks"}}/*
+}else{document.body.children[0].innerText=c+" clicks"}}
 document.body.children[0].innerText=c+" clicks"
   }
   if (event.code==='Digit1'){
@@ -33,7 +33,7 @@ const d = Decimal,a=d.affordArithmeticSeries,s = d.sumArithmeticSeries,e=eval,c1
 function maxbuy(){
 max1=d.affordGeometricSeries(c,10,1.5,ca)
 max2=d.affordGeometricSeries(c,20,2.5,cs)
-/*Decimal.affordArithmeticSeries(c,20,5,cs)
+Decimal.affordArithmeticSeries(c,20,5,cs)
 }
 const cDate = (d1, d2) => {
   let date1 = new Date(d1).getTime();
@@ -63,7 +63,7 @@ function init(){
 c=new Decimal(0) 
 ca=new Decimal(1)
 cs=new Decimal(0)
-/*amount1=a(c,10,10,ca-1)
+amount1=a(c,10,10,ca-1)
 cost = s(amount1,10,10,ca-1)
 amount2=a(c,20,20,cs)
 cost2 = s(amount2,20,20,cs)
@@ -205,7 +205,7 @@ a8: {value:SAVE, id:'saveNUM'}
 }
 function debug(){
 SAVE+=1
-save = /*btoa(btoa(JSON.stringify({
+save = btoa(btoa(JSON.stringify({
 a1:{value:c, id:'money'},
 a2: {value:ca, id:'cpc'},
 a3: {value:cost, id:'price'},
@@ -263,7 +263,7 @@ const d = Decimal,a=d.affordArithmeticSeries,s = d.sumArithmeticSeries,e=eval,c1
 function maxbuy(){
 max1=d.affordGeometricSeries(c,10,1.5,ca)
 max2=d.affordGeometricSeries(c,20,2.5,cs)
-/*Decimal.affordArithmeticSeries(c,20,5,cs)*/
+Decimal.affordArithmeticSeries(c,20,5,cs)*/
 }
 const cDate = (d1, d2) => {
   let date1 = new Date(d1).getTime();
@@ -293,7 +293,7 @@ function init(){
 c=new Decimal(0) 
 ca=new Decimal(1)
 cs=new Decimal(0)
-/*amount1=a(c,10,10,ca-1)
+amount1=a(c,10,10,ca-1)
 cost = new d(s(amount1,10,10,ca.subtract(1)))
 amount2=a(c,20,20,cs)
 cost2 = s(amount2,20,20,cs)*/
@@ -319,7 +319,7 @@ cs=cs.add(amount2)
 }console.log(cs+" cps"+'\n cost='+cost2+" clicks = "+c)
 return cs}
 document.body.onclick=function click(){
-c=c.add(ca);/*
+c=c.add(ca);
 document.body.children[0].innerText=c+" clicks"
 */
 _c=c.toExponential()
@@ -436,7 +436,7 @@ a8: {value:SAVE, id:'saveNUM'}
 }
 function debug(){
 SAVE+=1
-save = /*btoa(btoa(*/JSON.stringify({
+save = btoa(btoa(*/JSON.stringify({
 a1:{value:c, id:'money'},
 a2: {value:ca, id:'cpc'},
 a3: {value:cost, id:'price'},
