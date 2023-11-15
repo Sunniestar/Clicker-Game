@@ -1,5 +1,5 @@
 function begin(){alert('space to click 1 to upgrade cpc 2 to upgrade cps')}
-var c,ca,cs,cost,cost2,timeractive,max1,max2,buymax=true,amount2,amount1,SAVE=0;
+var c,ca,cs,cost,cost2,_c,timeractive,max1,max2,buymax=true,amount2,amount1,SAVE=0;
 document.addEventListener('keypress', event => {
   if (event.code === 'Space') {
 c=c.add(ca);
@@ -169,8 +169,10 @@ document.body.children[4].innerText="press 2 to buy "+amount2+" more click per s
 }
 function cps(){
 c=c.add(cs)
-document.body.children[0].innerText=c+" clicks"
-}
+if (c.exponent>=6&&c.exponent<=8){
+    _c=c.mantissa.toFixed(2)+"Mil"
+document.body.children[0].innerText=_c+" clicks"
+}else{document.body.children[0].innerText=c+" clicks"}}
 setInterval('update()',10)
 setInterval('cps()',1000)
 function download(filename, text) {
