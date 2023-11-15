@@ -230,3 +230,4 @@ document.body.children[0].innerText=_c+" clicks"
 });
 }
 setTimeout('abc()',1000)
+document.body.onload=init()
