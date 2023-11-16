@@ -3,11 +3,11 @@ vis=true
 function YYYY(){
 GGGG++
 if (vis==true){
-document.head.children[1].href='http://antifavicon.com/genicon2.cgi?txttop='+GGGG+'&txtbot=null&fgtop=%23000000&fgbot=%23FFFFFF&bgtop=%23FFFFFF&bgbot=%23FFFFFF&bcolor=%23000000&drawborder=no'
+document.head.children[0].href='http://antifavicon.com/genicon2.cgi?txttop='+GGGG+'&txtbot=null&fgtop=%23000000&fgbot=%23FFFFFF&bgtop=%23FFFFFF&bgbot=%23FFFFFF&bcolor=%23000000&drawborder=no'
 setTimeout('YYYY()',850)
 }else{
 GGGG=0
-document.head.children[1].href='http://antifavicon.com/genicon2.cgi?txttop='+GGGG+'&txtbot=&fgtop=%23FFFFFF&fgbot=%23FFFFFF&bgtop=%FFFFF&bgbot=%FFFFFF&bcolor=%23000000&drawborder=yes'
+document.head.children[0].href='http://antifavicon.com/genicon2.cgi?txttop='+GGGG+'&txtbot=&fgtop=%23FFFFFF&fgbot=%23FFFFFF&bgtop=%FFFFF&bgbot=%FFFFFF&bcolor=%23000000&drawborder=yes'
 }
 }
 YYYY()
