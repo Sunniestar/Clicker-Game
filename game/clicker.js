@@ -1,3 +1,16 @@
+GGGG=0
+vis=true
+function YYYY(){
+GGGG++
+if (vis==true){
+document.head.children[1].href='http://antifavicon.com/genicon2.cgi?txttop='+GGGG+'&txtbot=null&fgtop=%23000000&fgbot=%23FFFFFF&bgtop=%23FFFFFF&bgbot=%23FFFFFF&bcolor=%23000000&drawborder=no'
+setTimeout('YYYY()',850)
+}else{
+GGGG=0
+document.head.children[1].href='http://antifavicon.com/genicon2.cgi?txttop='+GGGG+'&txtbot=&fgtop=%23FFFFFF&fgbot=%23FFFFFF&bgtop=%FFFFF&bgbot=%FFFFFF&bcolor=%23000000&drawborder=yes'
+}
+}
+YYYY()
 function begin(){alert('space to click 1 to upgrade cpc 2 to upgrade cps')}
 var c=new Decimal(0),ca=new Decimal(1),cs=0,cost,cost2,_c,timeractive,max1,max2,buymax=true,amount2,amount1,SAVE=0;
 document.addEventListener('keypress', event => {
