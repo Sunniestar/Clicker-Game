@@ -1,5 +1,5 @@
 function begin(){alert('space to click 1 to upgrade cpc 2 to upgrade cps')}
-var c=new Decimal(0),ca=new Decimal(1),cs,cost,cost2,_c,timeractive,max1,max2,buymax=true,amount2,amount1,SAVE=0;
+var c=new Decimal(0),ca=new Decimal(1),cs=0,cost,cost2,_c,timeractive,max1,max2,buymax=true,amount2,amount1,SAVE=0;
 document.addEventListener('keypress', event => {
   if (event.code === 'Space') {
 c=c.add(ca);
