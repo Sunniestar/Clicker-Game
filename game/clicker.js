@@ -49,11 +49,6 @@ const cDate = (d1, d2) => {
 function redo(BB){
 return JSON.parse(atob(atob(BB))) 
 }
-function howtodecryptsave(){
-console.log('JSON.parse(atob(atob(save)))= decrypted save')
-console.log("save = btoa(btoa(JSON.stringify({a1:{value:c, id:'clicks'},a2: {value:ca, id:'cpc'},a3: {value:cost, id:'price'}})));")
-console.warn('i dont recommend cheating as it removes the fun')
-}
 function init(){
 //alert('click anywhere to get clicks')
 c=new Decimal(0) 
